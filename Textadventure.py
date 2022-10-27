@@ -33,11 +33,11 @@ class Character:
 
 class fighter(Character):
     def __init__(self):
-            Character.__init__(self, 300, 30, 'fighter')
+            Character.__init__(self, 300, 30, 'Bandit')
 
 class monster(Character):
     def __init__(self):
-            Character.__init__(self, 100, 10, 'monster')
+            Character.__init__(self, 100, 10, 'Goblin')
 
 
 class Player(Character):
